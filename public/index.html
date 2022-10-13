@@ -1,17 +1,69 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
+        <meta name="description" content="Platform digital Kemanusiaan yang Amanah, Mudah, Transparans" />
+        <meta property="og:locale" content="id_ID" />
+        <meta property="og:site_name" content="Gerak Sedekah Cilacap" />
+        <meta property="og:url" content="https://donasi.gsc.or.id" />
+        <meta name="author" content="Gerak Sedekah Cilacap">
+        <meta property="og:title" content="Donasi Online" />
+        <meta property="og:description"
+          content="GSC adalah Lembaga filantropi yang berpusat di kota Cilacap, GSC mengelola sedekah, infak, dan zakat melalui program-program pemberdayaan masyarakat" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://donasi.gsc.or.id/img/whitebg.png" />
+
+        <meta property="og:url" content="https://donasi.gsc.or.id/campaign" />
+        <meta name="author" content="Gerak sedekah Cilacap">
+        <meta property="og:title" content="Platform digital Kemanusiaan yang Amanah, Mudah, Transparans" />
+        <meta property="og:description"
+          content="Gerak Sedekah Cilacap-> Lembaga filantropi yang berpusat di kota Cilacap, GSC mengelola sedekah, infak, dan zakat melalui program-program pemberdayaan masyarakat" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://donasi.gsc.or.id/img/whitebg.png" />
+        <meta name="google-site-verification" content="yFzBMzHJgFhLg8W2xKEDjyuNYCR_RGptRnl9eEWahN4" />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+          n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1105805567017677');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1105805567017677&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= BASE_URL %>favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= BASE_URL %>apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= BASE_URL %>favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= BASE_URL %>favicon-16x16.png">
+    <link rel="manifest" href="<%= BASE_URL %>site.webmanifest">
+    
+    <title>DONASI ONLINE - GERAK SEDEKAH CILACAP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <style>
+      body {
+        font-family: 'Quicksand', sans-serif!important;
+      }
+    </style>
   </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
+  <body class="bg-gray-200">
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="Mid-client-f6M2pRvTiu-ed4gY"></script>
+    
   </body>
 </html>
